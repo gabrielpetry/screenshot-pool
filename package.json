@@ -1,0 +1,36 @@
+{
+  "name": "screenshot-pool",
+  "version": "1.0.0",
+  "description": "Yet another screenshot webservice",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index,js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielpetry/screenshot-pool.git"
+  },
+  "keywords": [
+    "screenshot",
+    "generic-poo",
+    "webservice"
+  ],
+  "author": "Gabriel Petry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielpetry/screenshot-pool/issues"
+  },
+  "homepage": "https://github.com/gabrielpetry/screenshot-pool#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "generic-pool": "^3.7.1",
+    "puppeteer": "^2.1.1"
+  }
+}
